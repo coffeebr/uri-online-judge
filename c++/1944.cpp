@@ -14,7 +14,6 @@ int main()
     unsigned short int n, x = 0;
     cin >> n;
     cin.ignore();
-    
     while(n--)
     {
         if(!face.size())
