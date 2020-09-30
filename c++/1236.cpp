@@ -3,6 +3,7 @@
 using namespace std;
 
 int main(){
+    cout << (int)'#';
     int n, a, b, k;
     string str1, str2;
     cin >> n;
@@ -25,11 +26,12 @@ int main(){
                 if(k > 2)
                 {
                     str2 += '#';
-                    while(k >= 0)
+                    while(k > 255)
                     {
-                        str2 += {(char)(k), 0 };
+                        str2 += " ";
                         k -= 255;
                     }
+                    str2 += {(char)(k), 0 };
                 }
                 else
                 {
@@ -49,11 +51,12 @@ int main(){
                 if(k > 2)
                 {
                     str2 += '$';
-                    while(k >= 0)
+                    while(k > 255)
                     {
-                        str2 += {(char)(k), 0 };
+                        str2 += " ";
                         k -= 255;
                     }
+                    str2 += {(char)(k), 0 };
                 }
                 else
                 {
