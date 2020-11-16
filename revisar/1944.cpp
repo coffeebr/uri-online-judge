@@ -14,7 +14,10 @@ int main()
     unsigned short int n, x = 0;
     cin >> n;
     cin.ignore();
+<<<<<<< HEAD:revisar/1944.cpp
     
+=======
+>>>>>>> origin:c++/1944.cpp
     while(n--)
     {
         if(!face.size())
