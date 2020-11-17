@@ -1,1 +1,0 @@
-/mnt/win/projetos/uri-online-judge/resolvidos/porCategoria/ad-hoc/1467.cpp
